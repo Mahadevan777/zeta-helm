@@ -42,7 +42,7 @@ securityContext: {}
 service:
   type: NodePort
   port: 80
-  nodePort: 300006
+  nodePort: 30006
   containerPort: 5000
 
 ingress:
@@ -98,3 +98,4 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
